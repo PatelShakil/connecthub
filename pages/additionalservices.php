@@ -11,6 +11,8 @@
     <title>ConnectHub | Additionalservices</title>
   </head>
   <body>
+    <!-- footer -->
+<?php include '/xampp/htdocs/connecthub/footer.php'?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
