@@ -44,43 +44,55 @@
       </ul>
     </div>
   </nav>
+  <!-- image  -->
+  <h3 class="my-3 text-center">HOMESTAY SOLUTIONS</h3>
+  <img src="https://source.unsplash.com/2400x500/?homestay,families,relatives" alt="image">
   <!-- body 1 article  -->
-  <div class="container text-center">
-    <h3>HOMESTAY SOLUTIONS</h3>
-    <p class="font-weight-bolder"><span style="font-weight: 400; font-size: 101%;">We carefully handpick families based on each student’s individual needs, we especially pay attention to those needing restrictions based on dietary and religious requirements. We are proud to choose families based on references, active recruiting and selective processes by interviewing. Once we know specifically all the requirements, we will find an appropriate match. We will provide you with homestay solutions such as; meals included or excluded, shared accommodations with other students, or individual accommodations. Our services do not end with finding a suitable home for the student, we conduct a follow-up phone call with both parties or with their agents to make sure everybody is content with the arrangements. Should there be a case that we need to change the accommodation for an unforeseen reason, there will be no charge to the first change.</span></p>
+  <div class="container text-center my-3">
+    <p class="font-weight-bolder"><span style="font-weight: 400; font-size: 101%;">We carefully handpick families based on each student's individual needs, we especially pay attention to those needing restrictions based on dietary and religious requirements. We are proud to choose families based on references, active recruiting and selective processes by interviewing. Once we know specifically all the requirements, we will find an appropriate match. We will provide you with homestay solutions such as; meals included or excluded, shared accommodations with other students, or individual accommodations. Our services do not end with finding a suitable home for the student, we conduct a follow-up phone call with both parties or with their agents to make sure everybody is content with the arrangements. Should there be a case that we need to change the accommodation for an unforeseen reason, there will be no charge to the first change.</span></p>
   </div>
   <!-- body 2 -->
-  <div class="row">
-    <div class="col-3 md-3">
-      <div class="container text-center">
-        <h5>For Students</h5>
-        <p>
-        If you are looking to study abroad, specifically in North America and/ or you are in need of homestay accommodations you are in the right place. We can provide you with all the solutions required so you can meet your future goals. We will make homestay arrangements on your behalf and connect you with settlement services to obtain your local identification, open bank accounts, cell phones, and your Social Insurance Numbers (SIN). You will have nothing to worry about other than focusing on your education.
-        </p>
+  <div class="container">
+    <div class="row">
+      <div class="col md-4 mx-2 my-2">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">For Students</h5>
+            <!-- addimission icon from svg -->
+            <img src="/connecthub/assets/students.png" alt="students">
+            <p class="card-text">If you are looking to study abroad, specifically in North America and/ or you are in need of homestay accommodations you are in the right place. We can provide you with all the solutions required so you can meet your future goals. We will make homestay arrangements on your behalf and connect you with settlement services to obtain your local identification, open bank accounts, cell phones, and your Social Insurance Numbers (SIN). You will have nothing to worry about other than focusing on your education.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-3 md-3">
-    <div class="container text-center">
-        <h5>For Students</h5>
-        <p>
-        If you are looking to study abroad, specifically in North America and/ or you are in need of homestay accommodations you are in the right place. We can provide you with all the solutions required so you can meet your future goals. We will make homestay arrangements on your behalf and connect you with settlement services to obtain your local identification, open bank accounts, cell phones, and your Social Insurance Numbers (SIN). You will have nothing to worry about other than focusing on your education.
-        </p>
+      <div class="col md-4 mx-2 my-2">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">For Schools</h5>
+            <!-- addimission icon from svg -->
+            <img src="/connecthub/assets/schools.png" alt="students">
+            <p class="card-text">Many of our students come from the Middle East and Europe, however we are seeing more students coming to us from countries within South Asia and South America. We are always interested in working with students from other countries and would like to provide solutions to your students. If this is of interest to you, let us know so we may see how we can be of service to one another.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-3 md-3">
-    <div class="container text-center">
-        <h5>For Students</h5>
-        <p>
-        If you are looking to study abroad, specifically in North America and/ or you are in need of homestay accommodations you are in the right place. We can provide you with all the solutions required so you can meet your future goals. We will make homestay arrangements on your behalf and connect you with settlement services to obtain your local identification, open bank accounts, cell phones, and your Social Insurance Numbers (SIN). You will have nothing to worry about other than focusing on your education.
-        </p>
+      <div class="col md-4 mx-2 my-2">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">For Host Families</h5>
+            <!-- addimission icon from svg -->
+            <img src="/connecthub/assets/host_families.png" alt="students">
+            <p class="card-text">We are currently looking for new families to welcome our students coming from other countries. If you are a caring family that enjoys other cultural backgrounds and would like to open your home and hearts to show them what our Canadian hospitality looks like, then please contact us below.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-3 md-3">
-    <div class="container text-center">
-        <h5>For Students</h5>
-        <p>
-        If you are looking to study abroad, specifically in North America and/ or you are in need of homestay accommodations you are in the right place. We can provide you with all the solutions required so you can meet your future goals. We will make homestay arrangements on your behalf and connect you with settlement services to obtain your local identification, open bank accounts, cell phones, and your Social Insurance Numbers (SIN). You will have nothing to worry about other than focusing on your education.
-        </p>
+      <div class="col md-4 mx-2 my-2">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">For Agents</h5>
+            <!-- addimission icon from svg -->
+            <img src="/connecthub/assets/agents.png" alt="students">
+            <p class="card-text">We are always open to referrals and new partnership opportunities in hopes to expand with you. If you happen to be in urgent need of accommodations, call us, and we will be happy to assist you.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

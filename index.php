@@ -14,7 +14,7 @@
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <a class="navbar-brand" href="/connecthub/">ConnectHub</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -93,6 +93,31 @@
             </a>
         </div>
     </div>
+    <!-- featurette -->
+    <div class="container">
+    <hr class="featurette-divider my-4">
+    <div class="row featurette my-2">
+        <div class="col-md-7 my-5">
+            <h2 class="featurette-heading">Why Study in Canada ? <span class="text-muted">Top 9 Reasons to Study in Canada</span></h2>
+            <p class="lead">Canada has become the go-to destination for international students to accelerate their learning curve. Students get the chance to enroll in the world's best universities. <a href="https://www.upgradabroad.com/articles/why-study-in-canada/">Read More...</a></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://source.unsplash.com/500x500/?canada,bachelor,college,canada,university,study" alt="">
+        </div>
+    </div>
+    <hr class="featurette-divider my-4">
+    <div class="row featurette my-2">
+        <div class="col-md-7 order-md-2 my-5">
+            <h2 class="featurette-heading">The rise of Canada as a popular study abroad destination.</h2>
+            <p class="lead">Studying abroad is a life-enriching experience that opens doors to global opportunities and successful careers. It equips students with a broader worldview, much required to excel in today's highly competitive world. <a href="https://economictimes.indiatimes.com/nri/study/the-rise-of-canada-as-a-popular-study-abroad-destination-for-indians/articleshow/89850044.cms">Read More...</a></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://source.unsplash.com/500x500/?college,canada,canadaflag,study,books,library" alt="">
+        </div>
+    </div>
+    <hr class="featurette-divider my-4">
+    </div>
+    
     <!-- articles based on studing in abroad -->
     <p class="text-center font-weight-bold display-4">Our Services</p>
     <div class="jumbotron jumbotron-fluid">
@@ -110,7 +135,6 @@
                             <a href="pages/admission.php" class="btn btn-primary">More...</a>
                         </div>
                     </div>
-
                 </div>
                 <div class="col md-4 my-3 ml-2">
                     <div class="card" style="width: 18rem;">
