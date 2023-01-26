@@ -35,7 +35,7 @@
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="/connecthub/pages/admission.php">Admission</a>
             <a class="dropdown-item" href="/connecthub/pages/accomodation.php">Accomodation</a>
-            <a class="dropdown-item" href="/connecthub/pages/additionalservices.php">additional Services</a>
+            <a class="dropdown-item" href="/connecthub/pages/additionalservices.php">Additional Services</a>
           </div>
         </div>
         <li class="nav-item active">
@@ -45,7 +45,7 @@
     </div>
   </nav>
   <!-- form for contact us  -->
-  <div class="container">
+  <div  class="container">
     <form>
       <div class="form-group my-3">
         <label for="exampleFormControlInput1">Email address</label>

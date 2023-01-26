@@ -33,7 +33,7 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="/connecthub/pages/admission.php">Admission</a>
                         <a class="dropdown-item" href="/connecthub/pages/accomodation.php">Accomodation</a>
-                        <a class="dropdown-item" href="/connecthub/pages/additionalservices.php">additional Services</a>
+                        <a class="dropdown-item" href="/connecthub/pages/additionalservices.php">Additional Services</a>
                     </div>
                 </div>
       <li class="nav-item">
