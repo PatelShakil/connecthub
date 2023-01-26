@@ -28,9 +28,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/connecthub/about.php">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/connecthub/services.php">Services</a>
-                </li>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/connecthub/pages/admission.php">Admission</a>
+                        <a class="dropdown-item" href="/connecthub/pages/accomodation.php">Accomodation</a>
+                        <a class="dropdown-item" href="/connecthub/pages/additionalservices.php">additional Services</a>
+                    </div>
+                </div>
                 <li class="nav-item">
                     <a class="nav-link" href="/connecthub/contact.php">Contact Us</a>
                 </li>
@@ -88,43 +95,51 @@
     </div>
     <!-- articles based on studing in abroad -->
     <p class="text-center font-weight-bold display-4">Our Services</p>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col md-4 my-3 ml-2">
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/admission.png" class="rounded" alt="admission">
-                            <div class="card-body">
-                                <h5 class="card-title">Admission</h5>
-                                <p class="card-text">Admission open for every countries students</p>
-                                <a href="pages/admission.php" class="btn btn-primary">More...</a>
-                            </div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col md-4 my-3 ml-2">
+                    <div class="card" style="width: 18rem;">
+                        <!-- addimission icon from svg -->
+                        <svg width="280" height="280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="graduation-cap" viewBox="0 0 2304 1896.0833">
+                            <path d="M1774 836l18 316q4 69-82 128t-235 93.5-323 34.5-323-34.5-235-93.5-82-128l18-316 574 181q22 7 48 7t48-7zm530-324q0 23-22 31L1162 895q-4 1-10 1t-10-1L490 689q-43 34-71 111.5T385 979q63 36 63 109 0 69-58 107l58 433q2 14-8 25-9 11-24 11H224q-15 0-24-11-10-11-8-25l58-433q-58-38-58-107 0-73 65-111 11-207 98-330L22 543q-22-8-22-31t22-31l1120-352q4-1 10-1t10 1l1120 352q22 8 22 31z"></path>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Admission</h5>
+                            <p class="card-text">early apply</p>
+                            <a href="pages/admission.php" class="btn btn-primary">More...</a>
                         </div>
+                    </div>
 
-                    </div>
-                    <div class="col md-4 my-3 ml-2">
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/accomodation.png" class="rounded" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Accomodation</h5>
-                                <p class="card-text">Homestay Solution.</p>
-                                <a href="pages/accomodation.php" class="btn btn-primary">More...</a>
-                            </div>
+                </div>
+                <div class="col md-4 my-3 ml-2">
+                    <div class="card" style="width: 18rem;">
+                        <!-- accomodation icon from svg -->
+                        <svg width="280" height="280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="home" viewBox="0 0 1664 1896.0833">
+                            <path d="M1408 992v480q0 26-19 45t-45 19H960v-384H704v384H320q-26 0-45-19t-19-45V992q0-1 .5-3t.5-3l575-474 575 474q1 2 1 6zm223-69l-62 74q-8 9-21 11h-3q-13 0-21-7L832 424l-692 577q-12 8-24 7-13-2-21-11l-62-74q-8-10-7-23.5T37 878l719-599q32-26 76-26t76 26l244 204V288q0-14 9-23t23-9h192q14 0 23 9t9 23v408l219 182q10 8 11 21.5t-7 23.5z"></path>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Accomodation</h5>
+                            <p class="card-text">Homestay Solution.</p>
+                            <a href="pages/accomodation.php" class="btn btn-primary">More...</a>
                         </div>
                     </div>
-                    <div class="col md-4 my-3 ml-2">
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/additional_services.png" class="rounded" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Additional Services</h5>
-                                <p class="card-text">Check out our special services.</p>
-                                <a href="pages/additionalservices.php" class="btn btn-primary">More...</a>
-                            </div>
+                </div>
+                <div class="col md-4 my-3 ml-2">
+                    <div class="card" style="width: 18rem;">
+                        <svg width="280" height="280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="device_hub" viewBox="0 0 512 512">
+                            <path d="M363 341h85v107H341v-65l-85-90-85 90v65H64V341h85l86-85v-68q-19-7-31-23t-12-37q0-26 19-45t45-19q26 0 45 19t19 45q0 21-12 37t-31 23v68l86 85z"></path>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Additional Services</h5>
+                            <p class="card-text">Check out our special services.</p>
+                            <a href="pages/additionalservices.php" class="btn btn-primary">More...</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     <?php include 'footer.php' ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

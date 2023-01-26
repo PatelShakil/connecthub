@@ -26,9 +26,16 @@
       <li class="nav-item">
         <a class="nav-link" href="/connecthub/about.php">About</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link active" href="/connecthub/services.php">Services</a>
-      </li>
+      <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/connecthub/pages/admission.php">Admission</a>
+                        <a class="dropdown-item" href="/connecthub/pages/accomodation.php">Accomodation</a>
+                        <a class="dropdown-item" href="/connecthub/pages/additionalservices.php">additional Services</a>
+                    </div>
+                </div>
       <li class="nav-item">
         <a class="nav-link" href="/connecthub/contact.php">Contact Us</a>
       </li>

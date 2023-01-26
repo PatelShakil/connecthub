@@ -11,6 +11,36 @@
     <title>ConnectHub | Additionalservices</title>
   </head>
   <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/connecthub/">ConnectHub</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/connecthub/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/connecthub/about.php">About</a>
+        </li>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/connecthub/pages/admission.php">Admission</a>
+            <a class="dropdown-item" href="/connecthub/pages/accomodation.php">Accomodation</a>
+            <a class="dropdown-item" href="/connecthub/pages/additionalservices.php">additional Services</a>
+          </div>
+        </div>
+        <li class="nav-item">
+          <a class="nav-link" href="/connecthub/contact.php">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
     <!-- footer -->
 <?php include '/xampp/htdocs/connecthub/footer.php'?>
 
